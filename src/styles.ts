@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
-const colors = {
+export const colors = {
   salmon: '#E66767',
   lightBeige: '#FFF8F2',
   beige: '#FFEBD9',
@@ -13,6 +13,7 @@ export const GLobalCss = createGlobalStyle`
     padding: 0;
     box-sizing: 0;
     font-family: Roboto, sans-serif;
+    list-style: none;
   }
 
   body {
