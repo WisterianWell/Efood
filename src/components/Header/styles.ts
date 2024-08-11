@@ -40,6 +40,7 @@ export const Title = styled.h1`
   margin-top: 140px;
   max-width: 540px;
   font-size: 36px;
+  font-weight: 900;
   line-height: 42px;
   text-align: center;
 `
