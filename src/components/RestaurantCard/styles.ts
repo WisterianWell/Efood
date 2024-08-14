@@ -34,7 +34,7 @@ export const CardInfos = styled.div`
     align-items: center;
   }
 `
-export const Title = styled.h2`
+export const Title = styled.h3`
   font-size: 18px;
   font-weight: bold;
 `
@@ -52,13 +52,4 @@ export const Description = styled.p`
   font-size: 14px;
   margin: 16px 0;
   line-height: 22px;
-`
-
-export const Button = styled.a`
-  background-color: ${colors.salmon};
-  color: ${colors.beige};
-  font-size: 14px;
-  font-weight: bold;
-  padding: 4px 6px;
-  cursor: pointer;
 `

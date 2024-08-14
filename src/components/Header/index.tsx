@@ -1,4 +1,4 @@
-import { HeaderBar, HeaderContainer, Title } from './styles'
+import { HeaderBar, HeaderContainer, LinkHeader, Title } from './styles'
 
 import efoodLogo from '../../assets/images/logo.svg'
 
@@ -10,7 +10,9 @@ const Header = ({ page }: Props) => (
   <HeaderContainer page={page}>
     <div className="container">
       <HeaderBar className="container">
-        <a>Restaurantes</a>
+        <LinkHeader to="/" page={page}>
+          Restaurantes
+        </LinkHeader>
         <img src={efoodLogo} alt="Efood" />
         <a>0 produto(s) no carrinho</a>
       </HeaderBar>

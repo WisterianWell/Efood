@@ -4,12 +4,12 @@ import {
   Title,
   Rating,
   Description,
-  Button,
   Tag,
   Tags
 } from './styles'
 
 import star from '../../assets/images/star_favorite.svg'
+import Button from '../Button'
 
 type Props = {
   name: string
@@ -36,7 +36,9 @@ const RestaurantCard = ({ name, image, tags, rating, description }: Props) => (
         </Rating>
       </div>
       <Description>{description}</Description>
-      <Button>Saiba mais</Button>
+      <Button type="link" to="/perfil" title="saiba mais">
+        Saiba mais
+      </Button>
     </CardInfos>
   </Card>
 )
